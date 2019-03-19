@@ -102,3 +102,8 @@ venv.bak/
 
 # mypy
 .mypy_cache/
+
+test_features.csv
+train_features.csv
+train_labels.csv
+module1-decision-trees/predictions.csv
