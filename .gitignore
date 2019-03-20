@@ -107,3 +107,5 @@ test_features.csv
 train_features.csv
 train_labels.csv
 module1-decision-trees/predictions.csv
+module1-decision-trees/submission-001.csv
+sample_submission.csv
