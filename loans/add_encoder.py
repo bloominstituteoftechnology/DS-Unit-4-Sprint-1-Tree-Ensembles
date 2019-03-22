@@ -9,8 +9,10 @@ def encode(encoder, trainpath = TRAINPATH, testpath = TESTPATH):
     ''' pass a fresh encoder instance from ce library. '''
 
     df_test = clean(pd.read_csv(testpath))
+
     X_train = encoder.fit_transform(clean(pd.read_csv(trainpath))[0])
     X_test = encoder.fit_transform(df_test[0])
+
     return {'train': X_train, 'test': X_test, 'TEST_IDs': df_test[1]}
 
 dfs = encode(ce.OneHotEncoder())
