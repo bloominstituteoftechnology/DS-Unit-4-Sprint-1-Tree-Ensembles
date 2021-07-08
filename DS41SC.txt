@@ -1,0 +1,18 @@
+(drop) DBA: legal name of restaurant
+(drop) AKA: publicly known name
+(ID) license number:
+type of facility: ~ 329 types
+risk category of facility: 3 types: ranked 1 max risk, 3 lowest risk
+inspection date: 2257 inspection dates
+inspection type: 51 types: canvass, consultation, complaint, license, suspect food poisoning, task-force inspection. Reinspections can occur for most of these are are indicated.
+violations: 42164 types
+
+latitude:
+longitude:
+
+location: 13410 types
+results: pass (violations only of type 1-14, 15-29),
+         pass w/conditions (critical/serious violations, but corrected during inspection),
+         fail (critical/serious violations, not corectable during inspection)
+         out-of-business
+         not located
